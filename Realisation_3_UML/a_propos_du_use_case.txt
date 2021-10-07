@@ -1,2 +1,0 @@
-à propos du use case : les case en blanc n'ont pas encore été fait
-le use case est, de toute façon, sujet à modification
