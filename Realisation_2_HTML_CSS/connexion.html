@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css.css">
+		<title>Connexion</title>
+	</head>
+	
+	<body>
+	
+		<header>
+			<h1><a href="index.html">Titre du site</a></h1>
+			<div>
+				<h2> Connectez-vous : <h2>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="inscription.html">S'inscrire</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div class="formulaire">
+			<form method="post" action="connexionSite.php">
+			<div>
+				<label class="la1" for="email">Email : </label>
+				<input type="email" name="email" placeholder="xyz@email.com" required />
+			</div>
+			<div>
+				<label class="la1" for="password">Mot de passe : </label>
+				<input type="password" name="password" placeholder="******" required />
+			</div>
+			<div>
+				<p class="la1">Êtes-vous un robot ?<p>
+				<div class="box">
+				<input type="checkbox" /><label for="checkbox">Oui </label>
+				</div>
+				<div class="box">
+				<input type="checkbox" /><label for="checkbox">Non </label>
+				</div>
+				<div class="box">
+				<input type="checkbox" checked/><label for="checkbox">Je ne sais pas </label>
+				</div>
+			</div>
+			<div>
+				<input type="submit" value="Connexion"/>
+			</div>
+			</form>
+		</div>
+		<footer>
+		
+			<h1>Titre du site</h1>
+			<p>...</p>
+			<nav>
+				<ul id="idflex">
+					<li><a href=#>Contact</a></li>
+					<li><a href=#>Mentions légales</a></li>
+					<li><a href=#>...</a></li>
+				</ul>
+			</nav>
+		</footer>
+	
+	</body>
+
+</html>

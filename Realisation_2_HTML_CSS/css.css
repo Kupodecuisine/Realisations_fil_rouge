@@ -1,4 +1,4 @@
-/* h1 h4 h5 = index // h2 = track */
+/* h1 h4 h5 = index // h2 = track connexion */
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 
@@ -111,6 +111,15 @@ header nav ul li {
 	margin: 25px;
 }
 
+/* Header Connexion/Inscription */ 
+
+header div h2 {
+	grid-column: 2;
+	text-align: center;
+	margin-top: 3%;
+	font-size: 8vh;
+}
+
 
 
 /* Contenu */
@@ -154,6 +163,7 @@ h5 {
 	border: solid 2px #262944;
 	box-shadow: 10px 10px 10px rgba(88,90,89,0.5);
 }
+
 
 
 /* Footer */
@@ -270,3 +280,27 @@ footer h1, footer p {
 	font-weight: bold;
 }
 
+
+/*Connexion // Inscription */
+
+.formulaire {
+	padding: 2%;
+	margin: 6% 20% 10% 20%; 
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	border: ridge 10px rgba(131,34,69,0.15);
+	border-radius: 30px;
+}
+
+.formulaire div {
+	margin-bottom: 2.5%;
+}
+
+.formulaire .box {
+	margin-bottom: 1%;
+}
+
+.la1 {
+	font-size: 2vh;
+}
