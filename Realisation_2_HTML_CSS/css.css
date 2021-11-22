@@ -153,6 +153,7 @@ h5 {
 }
 
 #divart {
+	/*modifier l'id en class*/
 	margin-bottom: 5%;
 	display: flex;
 	flex-direction: row;
