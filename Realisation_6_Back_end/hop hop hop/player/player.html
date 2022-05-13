@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affichage</title>
+    <link rel="icon" href="">
+	<link rel="stylesheet" href="player.css?v=<?php echo time(); ?>" type="text/css">
+    <script src="player.js"> </script>
+
+    
+</head>
+
+<!-- https://codepen.io/AliKlein/pen/MBNBEW -->
+
+<div class="audio-player">
+
+  <audio id="audio">
+    <source src="https://thenewcode.com/assets/audio/24-ghosts-III.mp3" type="audio/mp3">
+  </audio>
+
+  <div class="player-controls">
+
+    <div id="radioIcon"></div>
+
+    <button id="playAudio"></button>
+
+    <div id="seekObjContainer">
+      <div id="seekObj">
+        <div id="percentage"></div>
+      </div>
+    </div>
+
+    <p><small id="currentTime">00:00</small></p>
+
+  </div>
+</div>
+
+</html>
