@@ -6,11 +6,11 @@
 </head>
 	<header>
 			<h1>
-				<a href="afficher.php">Scherzando</a>
+				<a class="scherzo" href="afficher.php">Scherzando</a>
 			</h1>
 			
 			<h2>
-				<a class="btn btn-outline-dark btn-lg" href="ajouter.php">Uploader</a>
+				<a class="btnBrutal3" href="ajouter.php">Uploader</a>
 			</h2>
 	</header>
 	

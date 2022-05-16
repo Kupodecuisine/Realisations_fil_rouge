@@ -31,29 +31,31 @@
 											'
 											<div class="divForm">
 											<form action="scriptModif.php" method="POST">
-													<h1 class="titreForm">Modifier une musique : </h1>
+													<h1 class="titreForm btnBrutal">Modifier une musique : </h1>
 													<fieldset class="mb-3">
-													<label for="text">Nom du morceau :</label>
+													<label for="text">Nom :</label>
 														<input type="text" name="nom_morceau" value="'.$data['nom_morceau'].'" required>
 													</fieldset>
 													<fieldset class="mb-3">
-													<label for="text">Nom du compositeur :</label>
+													<label for="text">Compositeur :</label>
 														<input type="text" name="compositeur_morceau" value="'.$data['compositeur_morceau'].'" required>
 													</fieldset>
 													<fieldset class="mb-3">
 													<label for="text">Description :</label>
-														<textarea type="text" name="description_morceau" value="'.$data['description_morceau'].'" required></textarea>
+														<textarea type="text" name="description_morceau" rows="4" cols="50" required>
+															'.$data['description_morceau'].'
+														</textarea>
 													</fieldset>
 													 <fieldset class="mb-3">
-													 <label for="text">Genre du morceau :</label>
+													 <label for="text">Genre :</label>
 														<input type="text" name="genre_morceau" value="'.$data['genre_morceau'].'" required>
 													</fieldset>
 													</fieldset class="mb-3">
-													<input type="submit" value="modifier">
+													<input type="submit" class="btnBrutal inputForm" value="Modifier">
 												</form>
 												
 												<form action="scriptDelete.php?name='.$data['nom_morceau'].'" method="post">
-													<input type="submit" value="Supprimer">
+													<input type="submit" class="btnBrutal inputForm endInput" value="Supprimer">
 												</form>
 											</div>';
 									}

@@ -17,29 +17,33 @@
     <div class="divForm">
         
         <form action="" method="POST" enctype="multipart/form-data">
-            <h1 class="titreForm">Ajouter une musique : </h1>
+            <h1 class="titreForm btnBrutal">Ajouter une musique : </h1>
 			<fieldset class="mb-3">
                 <label for="file">Morceau :</label>
-                <input type="file" name="morceau_morceau" accept=".wav, .mp3, .ogg" > 
+                <input type="file" class="btnBrutal" name="morceau_morceau" accept=".wav, .mp3, .ogg" > 
             </fieldset>
             <fieldset class="mb-3">
-                <input type="text" name="nom_morceau" placeholder="nom" required>
+				<label for="text">Nom :</label>
+                <input type="text" name="nom_morceau" placeholder="Nom" required>
             </fieldset>
             <fieldset class="mb-3">
+				<label for="text">Compositeur :</label>
                 <input type="text" name="compositeur_morceau" placeholder="Compositeur" required>
             </fieldset>
             <fieldset class="mb-3">
+				<label for="text">Description :</label>
                 <textarea type="text" name="description_morceau" placeholder="Description" required></textarea>
             </fieldset>
              <fieldset class="mb-3">
+				<label for="text">Genre :</label>
                 <input type="text" name="genre_morceau" placeholder="Genre" required>
             </fieldset>
           			
             <fieldset class="mb-3">
-                <label for="file">Image</label>
-                <input type="file" name="image_morceau" accept=".jpg, .png"> 
+                <label for="file">Image :</label>
+                <input type="file" class="btnBrutal" name="image_morceau" accept=".jpg, .png"> 
             </fieldset>
-            <input type="submit" value="Ajouter">
+            <input type="submit" class="btnBrutal inputForm endInput" value="Ajouter">
         </form>
     </div>
 	</section>
@@ -56,7 +60,6 @@
         $_POST['compositeur_morceau'],
         $_POST['description_morceau'],
         $_POST['genre_morceau'],
-        // $_POST['genre_morceau'], pour le genre prédéfini ? à voir
         $_FILES['image_morceau']
         )){
 			// import morceau
@@ -68,7 +71,7 @@
             $size = $_FILES['morceau_morceau']['size'];
             //stocke les erreurs
             $error = $_FILES['morceau_morceau']['error'];
-            //déplacer le fichier importé dans le dossier image à la racine du projet
+            //déplacer le fichier importé dans le dossier music à la racine du projet
             $file = move_uploaded_file($tmpName, "../music/$nomMusic");
 			
             $nomMorceau = $_POST['nom_morceau'];

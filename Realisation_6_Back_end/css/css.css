@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+body{
+	background-color:black;
+	font-family: 'Hind Siliguri', sans-serif;
+	}
+
+/* header & footer */
+
+	header{
+		background-color: white;
+		display:flex;
+		margin:2%;
+		padding:1%;
+		justify-content:space-between;
+		border:0.2rem solid white;
+		margin-bottom: 5%;
+		box-shadow:  -5px 5px 0px rgb(210,210,210), -10px 10px 0px rgb(255,255,255), -15px 15px 0px rgb(210,210,210), -20px 20px 0px rgb(255,255,255);
+	}
+
+		header h1{
+			display: flex;
+			text-align: center;
+			align-items:center;
+			margin-left:2%;
+			font-weight:700;
+		}
+
+		header h2{
+			display: flex;
+			text-align: center;
+			align-items:center;
+			margin-right: 2%;
+		}
+
+	footer{
+		background-color: white;
+		display:flex;
+		margin:2%;
+		padding:1%;
+		justify-content:space-between;
+		border:0.2rem solid white;
+		margin-top:10%;
+		box-shadow:  5px -5px 0px rgb(210,210,210), 10px -10px 0px rgb(255,255,255), 15px -15px 0px rgb(210,210,210), 20px -20px 0px rgb(255,255,255);
+	}
+
+		footer h1{
+			display: flex;
+			text-align: center;
+			align-items:center;
+			margin-left:2%;
+			font-weight:700;
+		}
+
+		footer h3 {
+			display: flex;
+			text-align: center;
+			align-items:center;
+			margin-right: 2%;
+			margin-left: 2%;
+		}
+
+/* main et gestion des pistes sur affichage.php*/
+
+main{
+	background-color: white;
+	border:solid 1rem rgb(0,0,0);
+	
+}
+
+	.containAllTracks{
+		background-color:black;
+		margin:0;
+		display:flex;
+		flex-direction:column;
+	}
+
+	.containTrack{
+		background-color:white;
+		display:flex;
+		flex-flow:row nowrap;
+		justify-content: center;
+		border:solid 0.5em black;
+		margin:0;
+	}
+
+	.border{
+		margin-right:5%;
+		margin-left:5%;
+		padding:1%;
+		background-color:white;
+		box-shadow:  5px 5px 0px rgb(210,210,210), 10px 10px 0px rgb(255,255,255), 15px 15px 0px rgb(210,210,210), 20px 20px 0px rgb(255,255,255);
+	}
+
+	main div:first-child{
+		margin:2%;
+		border:solid 0.25rem;
+	}
+
+	main div img{
+		border:solid white 0.25rem;
+	
+	}
+
+	main div:nth-child(2){
+		display:flex;
+		flex-direction:column;
+		margin:2%;
+	}
+
+	main section a:last-child{
+		align-content: center;
+		margin:auto;
+		padding:auto;
+	}
+
+	main a{
+		font-size:2em;
+	}
+
+/* formulaires sur ajouter.php et modifier.php */
+
+.divForm{
+	
+	display:grid;
+	grid-template-columns: 3fr 6fr 3fr;
+	
+	/* margin-bottom:10%; */
+}
+
+	form{
+		
+		background-color: white;
+		grid-column:2;
+		padding-top:5%;
+		box-shadow:  5px 5px 0px rgb(210,210,210), 10px 10px 0px rgb(255,255,255), 15px 15px 0px rgb(210,210,210), 20px 20px 0px rgb(255,255,255);
+	}
+	
+	form h1{
+		margin-right:5%;
+		margin-left:5%;
+	}
+	
+	form fieldset{
+		display:flex;
+		flex-direction:column;
+		padding-left:33%;
+		padding-right:33%;
+	}
+
+	.inputForm{
+		margin-left:5%;
+		font-size:1.5em;
+	}
+	
+	.endInput{
+		margin-bottom:5%;
+	}
+	
+	.titreForm{
+		text-align:center;
+		margin-bottom:5%;
+	}
+
+/* gestion des inputs/liens*/
+
+a{
+	text-decoration:none;
+}
+
+.scherzo{
+	color:#FCFF1E;
+	-webkit-text-stroke: 1.5px black;
+	text-decoration:none;
+}
+	
+	.scherzo:hover{
+		color:#00F7FF;
+		-webkit-text-stroke: 1.5px black;
+	}
+	
+.btnBrutal{
+	background-color:black;
+	color:white;
+}
+
+	.btnBrutal:hover{
+		background-color:white;
+		color:black;
+	}
+
+.btnBrutal2{
+	padding:1%;
+	background-color:black;
+	border:solid white 2px;
+	color:white;
+}
+
+	.btnBrutal2:hover{
+		background-color:white;
+		border:solid black 2px;
+		color:black;
+	}
+	
+.btnBrutal3{
+	padding:5%;
+	margin:5%;
+	background-color:black;
+	border:solid white 2px;
+	color:white;
+}
+
+	.btnBrutal3:hover{
+		background-color:white;
+		border:solid black 2px;
+		color:black;
+	}
+	
+	

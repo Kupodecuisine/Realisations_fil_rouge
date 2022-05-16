@@ -6,15 +6,15 @@
 </head>
 	<footer>
 		<h3>
-			<a class="btn btn-outline-dark btn-lg" href=#>Contact</a>
+			<a class="btnBrutal3" href=#>Contact</a>
 		</h3>
 				
 		<h1>
-			<a href="afficher.php">Scherzando</a>
+			<a class="scherzo" href="afficher.php">Scherzando</a>
 		</h1>
 		
 		<h3>
-			<a class="btn btn-outline-dark btn-lg" href=#>Mentions légales</a>
+			<a class="btnBrutal2" href=#>Mentions légales</a>
 		</h3>
 	</footer>
 	
