@@ -8,7 +8,6 @@
 			<h1>
 				<a class="scherzo" href="afficher.php">Scherzando</a>
 			</h1>
-			
 			<h2>
 				<a class="btnBrutal3" href="ajouter.php">Uploader</a>
 			</h2>
