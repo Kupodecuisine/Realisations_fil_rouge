@@ -1,0 +1,124 @@
+/* Responsive tablet landscape */
+@media (max-device-width: 1050px) {
+	.containTrack a{
+		font-size:1em;
+	}
+	fieldset input, fieldset textarea{
+		width:20vw;
+	}
+}
+
+/* Responsive tablet portrait & mobile landscape */
+@media (max-device-width: 900px) {
+	.containTrack{
+		flex-flow: column wrap;
+		align-content: center;
+		padding-bottom:4%;
+	}
+	audio{
+		width:40vw;
+	}
+	header h2{
+		margin-right:4%;
+	}
+	.divForm{
+		grid-template-columns: 2fr 8fr 2fr;
+	}
+	fieldset input, fieldset textarea{
+		width:30vw;
+	}
+	
+}
+
+/* Mobile portrait */
+@media (max-device-width: 600px) {
+	header{
+		margin-bottom:10%;
+	}
+	footer{
+		margin-top:15%;
+	}
+	.containTrack div img{
+		height:200px;
+		width:200px;
+	}
+	header h2{
+		margin-right:6%;
+	}
+	audio{
+		width:50vw;
+	}
+	.divForm{
+		grid-template-columns: 1fr 10fr 1fr;
+	}
+	fieldset input, fieldset textarea{
+		width:35vw;
+	}
+}
+
+@media (max-device-width: 500px) {
+	form h1{
+		font-size:1.5em;
+	}
+	.scherzo{
+		-webkit-text-stroke: 1px black;
+	}
+	header a{
+		font-size: 0.75em;
+	}
+	footer a{
+		font-size: 0.75em;
+	}
+	
+}
+
+@media (max-device-width: 400px) {
+	form h1{
+		font-size:1em;
+	}
+	form label{
+		font-size:0.75em;
+	}
+	footer a{
+		font-size:0.60em;
+	}
+	.containTrack{
+		padding-bottom:6%;
+	}
+	.containTrack div img{
+		height:150px;
+		width:150px;
+	}
+	audio{
+		width:60vw;
+	}
+	
+}
+
+@media (max-device-width: 300px) {
+	header a{
+		font-size:0.5em;
+	}
+	header h2{
+		margin-right:8%;
+	}
+	footer a{
+		font-size:0.5em;
+	}
+	.scherzo{
+		-webkit-text-stroke: 0.75px black;
+	}
+	header{
+		margin-bottom:15%;
+	}
+	footer{
+		margin-top:20%;
+	}
+	.containTrack{
+		padding-bottom:8%;
+	}
+	.containTrack div img{
+		height:100px;
+		width:100px;
+	}
+}
